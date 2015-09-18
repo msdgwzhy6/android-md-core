@@ -16,40 +16,15 @@
 
 <resources>
 
-  <style name="MdTheme" parent="MdStylable">
+  <style name="Base.MdTheme" parent="Theme.AppCompat.Light.NoActionBar">
 
   </style>
 
-  <style name="MdTheme.Dark">
+  <style name="MdTheme.Light" parent="Base.MdTheme">
 
-    <!-- used to represent primary / main interface elements for a user -->
-    <item name="mdColor_primaryPalette">#009688</item>
-    <item name="mdColor_primaryPalette_dark">#00897B</item>
-    <item name="mdColor_primaryPalette_darker">#00796B</item>
-    <item name="mdColor_primaryPalette_light">#80CBC4</item>
+  </style>
 
-    <!-- textColor for all palettes -->
-    <item name="mdTextColor_primaryPalette">#FFFFFFFF</item>
-    <item name="mdTextColor_primaryPalette_dark">?attr/mdTextColor_primaryPalette</item>
-    <item name="mdTextColor_primaryPalette_light">#DE000000</item>
-
-    <!-- secondary textColor for all palettes -->
-    <item name="mdSecondaryTextColor_primaryPalette">#8AFFFFFF</item>
-    <item name="mdSecondaryTextColor_primaryPalette_dark">?attr/mdSecondaryTextColor_primaryPalette</item>
-    <item name="mdSecondaryTextColor_primaryPalette_light">#8A000000</item>
-
-    <!-- textColor for all palettes -->
-    <item name="mdHintTextColor_primaryPalette">#42FFFFFF</item>
-    <item name="mdHintTextColor_primaryPalette_dark">?attr/mdHintTextColor_primaryPalette</item>
-    <item name="mdHintTextColor_primaryPalette_light">#42000000</item>
-
-    <!-- dividerColor for all palettes -->
-    <item name="mdDividerColor_primaryPalette">#1EFFFFFF</item>
-    <item name="mdDividerColor_primaryPalette_dark">?attr/mdDividerColor_primaryPalette</item>
-    <item name="mdDividerColor_primaryPalette_light">#1E000000</item>
-
-    <!-- override material style -->
-    <item name="actionModeCloseDrawable">@drawable/ic_toolbar_close_white</item>
+  <style name="MdTheme.Dark" parent="Base.MdTheme">
 
   </style>
 

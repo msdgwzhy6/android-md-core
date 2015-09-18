@@ -31,16 +31,6 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity
-      android:label="@string/title_activity_simple"
-      android:name=".activity.SimpleActivity" />
-    <activity
-      android:label="@string/title_activity_theme"
-      android:name=".activity.ThemeActivity"
-      android:theme="@style/AppTheme.Purple" />
-    <activity
-      android:label="@string/title_activity_typo"
-      android:name=".activity.TypoActivity"></activity>
   </application>
 
 </manifest>
