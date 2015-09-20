@@ -16,7 +16,24 @@
 
 <resources>
 
-  <style name="Base.MdTheme" parent="Theme.AppCompat.Light.NoActionBar">
+  <!-- MdTheme.Light -->
+
+  <style name="MdTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+
+    <!-- used to represent primary / main interface elements for a user -->
+    <item name="mdColor_primaryPalette">@color/mdColor_cyan</item>
+    <item name="mdColor_primaryPalette_dark">@color/mdColor_cyan_dark</item>
+    <item name="mdColor_primaryPalette_light">@color/mdColor_cyan_light</item>
+
+    <!-- used to represent secondary interface elements for a user -->
+    <item name="mdColor_accentPalette">@color/mdColor_pink</item>
+    <item name="mdColor_accentPalette_dark">@color/mdColor_pink_dark</item>
+    <item name="mdColor_accentPalette_light">@color/mdColor_pink_light</item>
+
+    <!-- used to represent interface elements that the user should be careful of -->
+    <item name="mdColor_warnPalette">?attr/mdColor_accentPalette</item>
+    <item name="mdColor_warnPalette_dark">?attr/mdColor_accentPalette_dark</item>
+    <item name="mdColor_warnPalette_light">?attr/mdColor_accentPalette_light</item>
 
     <!-- override material style -->
     <!--colorPrimary: The primary branding color for the app. By default, this is the color applied to the action bar background.-->
@@ -35,35 +52,43 @@
     <!--<item name="colorControlActivated">?attr/mdColor_primaryPalette</item>-->
     <!--<item name="android:colorBackground">@color/mdColor_backgroundPalette</item>-->
     <!--<item name="android:windowBackground">@color/mdColor_backgroundPalette</item>-->
-
-    <item name="android:textColorPrimary">#44aacc</item>
-    <item name="android:textColorPrimaryInverse">#000000</item>
   </style>
 
-  <!-- MdTheme.Light -->
+  <!-- MdTheme.Dark -->
 
-  <style name="MdTheme.Light" parent="Base.MdTheme">
+  <style name="MdTheme.Dark" parent="Theme.AppCompat.NoActionBar">
 
     <!-- used to represent primary / main interface elements for a user -->
-    <item name="mdColor_primaryPalette">@color/mdColor_cyan</item>
-    <item name="mdColor_primaryPalette_dark">@color/mdColor_cyan_dark</item>
-    <item name="mdColor_primaryPalette_light">@color/mdColor_cyan_light</item>
+    <item name="mdColor_primaryPalette">@color/mdColor_purple</item>
+    <item name="mdColor_primaryPalette_dark">@color/mdColor_purple_dark</item>
+    <item name="mdColor_primaryPalette_light">@color/mdColor_purple_light</item>
 
     <!-- used to represent secondary interface elements for a user -->
-    <item name="mdColor_accentPalette">@color/mdColor_pink</item>
-    <item name="mdColor_accentPalette_dark">@color/mdColor_pink_dark</item>
-    <item name="mdColor_accentPalette_light">@color/mdColor_pink_light</item>
+    <item name="mdColor_accentPalette">@color/mdColor_teal</item>
+    <item name="mdColor_accentPalette_dark">@color/mdColor_teal_dark</item>
+    <item name="mdColor_accentPalette_light">@color/mdColor_teal_light</item>
 
     <!-- used to represent interface elements that the user should be careful of -->
     <item name="mdColor_warnPalette">?attr/mdColor_accentPalette</item>
     <item name="mdColor_warnPalette_dark">?attr/mdColor_accentPalette_dark</item>
     <item name="mdColor_warnPalette_light">?attr/mdColor_accentPalette_light</item>
+
+    <!-- override material style -->
+    <!--colorPrimary: The primary branding color for the app. By default, this is the color applied to the action bar background.-->
+    <!--colorPrimaryDark: Dark variant of the primary branding color. By default, this is the color applied to the status bar (via statusBarColor) and navigation bar (via navigationBarColor).-->
+    <!--colorAccent: Bright complement to the primary branding color. By default, this is the color applied to framework controls (via colorControlActivated).-->
+    <!--colorControlNormal: The color applied to framework controls in their normal state.-->
+    <!--colorControlActivated: The color applied to framework controls in their activated (ex. checked, switch on) state.-->
+    <!--colorControlHighlight: The color applied to framework control highlights (ex. ripples, list selectors).-->
+    <!--colorButtonNormal: The color applied to framework buttons in their normal state.-->
+    <!--colorSwitchThumbNormal: The color applied to framework switch thumbs in their normal state.-->
+
+    <item name="colorPrimary">?attr/mdColor_primaryPalette</item>
+    <item name="colorPrimaryDark">?attr/mdColor_primaryPalette_dark</item>
+    <item name="colorAccent">?attr/mdColor_accentPalette</item>
+    <!--<item name="colorControlNormal">?attr/mdSecondaryTextColor_backgroundPalette</item>-->
+    <!--<item name="colorControlActivated">?attr/mdColor_primaryPalette</item>-->
+    <!--<item name="android:colorBackground">@color/mdColor_backgroundPalette</item>-->
+    <!--<item name="android:windowBackground">@color/mdColor_backgroundPalette</item>-->
   </style>
-
-  <!-- MdTheme.Dark -->
-
-  <style name="MdTheme.Dark" parent="Base.MdTheme">
-
-  </style>
-
 </resources>
