@@ -100,13 +100,21 @@
     <!--colorButtonNormal: The color applied to framework buttons in their normal state.-->
     <!--colorSwitchThumbNormal: The color applied to framework switch thumbs in their normal state.-->
 
+    <item name="android:colorBackground">?attr/mdColor_backgroundPalette</item>
+    <item name="android:windowBackground">?attr/mdColor_backgroundPalette</item>
+
     <item name="colorPrimary">?attr/mdColor_primaryPalette</item>
     <item name="colorPrimaryDark">?attr/mdColor_primaryPalette_dark</item>
     <item name="colorAccent">?attr/mdColor_accentPalette</item>
     <item name="colorControlNormal">?attr/mdSecondaryTextColor_backgroundPalette</item>
     <item name="colorControlActivated">?attr/mdColor_accentPalette</item>
-    <item name="android:colorBackground">?attr/mdColor_backgroundPalette</item>
-    <item name="android:windowBackground">?attr/mdColor_backgroundPalette</item>
+
+    <item name="android:textColorPrimary">?attr/mdTextColor_backgroundPalette</item>
+    <item name="android:textColorSecondary">?attr/mdSecondaryTextColor_backgroundPalette</item>
+    <item name="android:textColorTertiary">?attr/mdSecondaryTextColor_backgroundPalette</item>
+    <item name="android:textColorHint">?attr/mdHintTextColor_backgroundPalette</item>
+    <item name="android:textColorHighlight">?attr/mdColor_accentPalette_light</item>
+    <item name="android:textColorLink">?attr/mdColor_accentPalette</item>
   </style>
 
   <!-- MdTheme.Dark -->
@@ -193,12 +201,20 @@
     <!--colorButtonNormal: The color applied to framework buttons in their normal state.-->
     <!--colorSwitchThumbNormal: The color applied to framework switch thumbs in their normal state.-->
 
+    <item name="android:colorBackground">?attr/mdColor_backgroundPalette</item>
+    <item name="android:windowBackground">?attr/mdColor_backgroundPalette</item>
+
     <item name="colorPrimary">?attr/mdColor_primaryPalette</item>
     <item name="colorPrimaryDark">?attr/mdColor_primaryPalette_dark</item>
     <item name="colorAccent">?attr/mdColor_accentPalette</item>
     <item name="colorControlNormal">?attr/mdSecondaryTextColor_backgroundPalette</item>
     <item name="colorControlActivated">?attr/mdColor_accentPalette</item>
-    <item name="android:colorBackground">?attr/mdColor_backgroundPalette</item>
-    <item name="android:windowBackground">?attr/mdColor_backgroundPalette</item>
+
+    <item name="android:textColorPrimary">?attr/mdTextColor_backgroundPalette</item>
+    <item name="android:textColorSecondary">?attr/mdSecondaryTextColor_backgroundPalette</item>
+    <item name="android:textColorTertiary">?attr/mdSecondaryTextColor_backgroundPalette</item>
+    <item name="android:textColorHint">?attr/mdHintTextColor_backgroundPalette</item>
+    <item name="android:textColorHighlight">?attr/mdColor_accentPalette_light</item>
+    <item name="android:textColorLink">?attr/mdColor_accentPalette</item>
   </style>
 </resources>

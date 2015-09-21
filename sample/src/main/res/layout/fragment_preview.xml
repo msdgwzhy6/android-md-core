@@ -25,15 +25,94 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
+    <TextView
+      android:text="Caption"
+      style="@style/MdText.Caption" />
+
+    <TextView
+      android:text="Body1"
+      style="@style/MdText.Body1" />
+
+    <TextView
+      android:text="Body2"
+      style="@style/MdText.Body2" />
+
+    <TextView
+      android:text="Subhead1"
+      style="@style/MdText.Subhead1" />
+
+    <TextView
+      android:text="Subhead2"
+      style="@style/MdText.Subhead2" />
+
+    <TextView
+      android:text="Title"
+      style="@style/MdText.Title" />
+
+    <TextView
+      android:text="Headline"
+      style="@style/MdText.Headline" />
+
+    <TextView
+      android:text="Display1"
+      style="@style/MdText.Display1" />
+
+    <TextView
+      android:text="Display2"
+      style="@style/MdText.Display2" />
+
+    <TextView
+      android:text="Display3"
+      style="@style/MdText.Display3" />
+
+    <TextView
+      android:text="Display4"
+      style="@style/MdText.Display4" />
+
     <Button
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="Button" />
 
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Button"
+      style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Button"
+      style="@style/Widget.AppCompat.Button.Borderless" />
+
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:enabled="false"
+      android:text="Button"
+      style="@style/Widget.AppCompat.Button" />
+
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Button"
+      style="@style/Widget.AppCompat.Button" />
+
     <EditText
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:hint="Hint..." />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Hello moto"
+      style="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+      android:text="Hello moto"
+      style="@style/MdText.Caption" />
 
     <TextView
       android:layout_width="match_parent"
@@ -45,7 +124,6 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:lineSpacingExtra="0dp"
-
       android:text="Default TextView Default TextView Default TextView Default TextView Default TextView Default TextView Default TextView Default TextView Default TextView Default TextView Default TextView "
       android:textSize="18sp" />
 
