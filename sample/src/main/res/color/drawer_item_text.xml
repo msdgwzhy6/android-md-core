@@ -14,16 +14,7 @@
   ~ limitations under the License.
   -->
 
-<resources xmlns:tools="http://schemas.android.com/tools">
-
-  <!-- AppTheme -->
-
-  <style name="Base.AppTheme" parent="MdTheme.Light">
-
-  </style>
-
-  <style name="AppTheme" parent="Base.AppTheme">
-    <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
-  </style>
-
-</resources>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:color="#000" android:state_checked="true" />
+  <item android:color="#000" />
+</selector>

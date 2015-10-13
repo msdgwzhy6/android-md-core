@@ -16,6 +16,10 @@
 
 <resources>
 
+  <string name="app_name" translatable="false">MdDemo</string>
+  <string name="open" translatable="false">open</string>
+  <string name="close" translatable="false">close</string>
+
   <string name="text_long" translatable="false">Lorem ipsum dolor sit amet, ut duis lorem provident sed felis blandit, condimentum donec lectus ipsum et mauris,
     morbi porttitor interdum feugiat nulla donec sodales, vestibulum nisl primis a molestie vestibulum quam, sapien mauris metus risus
     suspendisse magnis. Augue viverra nulla faucibus egestas eu, a etiam id congue rutrum ante, arcu tincidunt donec quam felis at ornare,
@@ -82,7 +86,6 @@
 
   <!-- auto generated values -->
   <!-- TODO: Remove or change this placeholder text -->
-  <string name="app_name" translatable="false">MdDemo</string>
   <string name="hello_world" translatable="false">Hello world!</string>
   <string name="hello_blank_fragment">Hello blank fragment</string>
 

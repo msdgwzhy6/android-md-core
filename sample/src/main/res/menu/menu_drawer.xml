@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<!--
   ~ Copyright 2015 "Henry Tao <hi@henrytao.me>"
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,16 +14,19 @@
   ~ limitations under the License.
   -->
 
-<resources xmlns:tools="http://schemas.android.com/tools">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:context=".MainActivity">
 
-  <!-- AppTheme -->
-
-  <style name="Base.AppTheme" parent="MdTheme.Light">
-
-  </style>
-
-  <style name="AppTheme" parent="Base.AppTheme">
-    <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
-  </style>
-
-</resources>
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/navigation_item_1"
+      android:checked="true"
+      android:icon="@drawable/ic_blank_circle"
+      android:title="Item 1" />
+    <item
+      android:id="@+id/navigation_item_2"
+      android:icon="@drawable/ic_blank_circle"
+      android:title="Item 2" />
+  </group>
+</menu>
